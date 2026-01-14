@@ -5,13 +5,14 @@ discovered from the `benchmarks/` tree and configured via `asv.conf.json` in the
 repository root.
 
 Resources:
-* ASV documentation: https://asv.readthedocs.io/en/latest/index.html
+
+* [ASV documentation](https://asv.readthedocs.io/en/latest/index.html)
 
 ## Running a benchmark
 
 Run all benchmarks from the repo root:
 
-```
+```sh
 ./benchmarks/run_benchmarks.sh
 ```
 
@@ -19,7 +20,7 @@ Note: the first run may take a while because ASV builds its virtual environment.
 
 Run a subset by name or regex:
 
-```
+```sh
 ./benchmarks/run_benchmarks.sh -b knn
 ```
 
@@ -27,13 +28,13 @@ Run a subset by name or regex:
 
 Publish results to the local HTML report:
 
-```
+```sh
 asv publish
 ```
 
 Preview the report in a local web server:
 
-```
+```sh
 asv preview
 ```
 
@@ -52,7 +53,7 @@ The generated site is written to `.asv/html/` (open `index.html` if you prefer).
 
 Example:
 
-```
+```py
 import torch
 
 
