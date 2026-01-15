@@ -15,8 +15,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-# Run ASV benchmarks from the modulus directory.
-# Usage: ./run_benchmarks.sh [additional asv arguments]
+# Run ASV benchmarks from the repository root directory.
+# Usage: ./benchmarks/run_benchmarks.sh [additional asv arguments]
 
 set -e
 
